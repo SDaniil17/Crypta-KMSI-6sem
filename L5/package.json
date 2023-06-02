@@ -1,0 +1,14 @@
+{
+  "name": "lab5nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start1": "node lab5a",
+    "start2": "node lab5b"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

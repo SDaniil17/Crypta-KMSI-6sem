@@ -1,0 +1,15 @@
+D:\Учеба\3 курс\6 сем\Крипта\L6\Lab6\Lab6\bin\Debug\Lab6.exe.config
+D:\Учеба\3 курс\6 сем\Крипта\L6\Lab6\Lab6\bin\Debug\Lab6.exe
+D:\Учеба\3 курс\6 сем\Крипта\L6\Lab6\Lab6\bin\Debug\Lab6.pdb
+D:\Учеба\3 курс\6 сем\Крипта\L6\Lab6\Lab6\obj\Debug\Lab6.csproj.AssemblyReference.cache
+D:\Учеба\3 курс\6 сем\Крипта\L6\Lab6\Lab6\obj\Debug\MainWindow.g.cs
+D:\Учеба\3 курс\6 сем\Крипта\L6\Lab6\Lab6\obj\Debug\App.g.cs
+D:\Учеба\3 курс\6 сем\Крипта\L6\Lab6\Lab6\obj\Debug\Lab6_MarkupCompile.cache
+D:\Учеба\3 курс\6 сем\Крипта\L6\Lab6\Lab6\obj\Debug\Lab6_MarkupCompile.lref
+D:\Учеба\3 курс\6 сем\Крипта\L6\Lab6\Lab6\obj\Debug\MainWindow.baml
+D:\Учеба\3 курс\6 сем\Крипта\L6\Lab6\Lab6\obj\Debug\Lab6.g.resources
+D:\Учеба\3 курс\6 сем\Крипта\L6\Lab6\Lab6\obj\Debug\Lab6.Properties.Resources.resources
+D:\Учеба\3 курс\6 сем\Крипта\L6\Lab6\Lab6\obj\Debug\Lab6.csproj.GenerateResource.cache
+D:\Учеба\3 курс\6 сем\Крипта\L6\Lab6\Lab6\obj\Debug\Lab6.csproj.CoreCompileInputs.cache
+D:\Учеба\3 курс\6 сем\Крипта\L6\Lab6\Lab6\obj\Debug\Lab6.exe
+D:\Учеба\3 курс\6 сем\Крипта\L6\Lab6\Lab6\obj\Debug\Lab6.pdb
