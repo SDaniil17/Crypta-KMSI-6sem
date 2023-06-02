@@ -1,0 +1,66 @@
+e:\kripta\lab13\KMZI13\KMZI13\bin\Debug\KMZI13.exe.config
+e:\kripta\lab13\KMZI13\KMZI13\bin\Debug\KMZI13.exe
+e:\kripta\lab13\KMZI13\KMZI13\bin\Debug\KMZI13.pdb
+e:\kripta\lab13\KMZI13\KMZI13\bin\Debug\System.ValueTuple.dll
+e:\kripta\lab13\KMZI13\KMZI13\bin\Debug\System.ValueTuple.xml
+e:\kripta\lab13\KMZI13\KMZI13\obj\Debug\KMZI13.csprojAssemblyReference.cache
+e:\kripta\lab13\KMZI13\KMZI13\obj\Debug\ECP.g.cs
+e:\kripta\lab13\KMZI13\KMZI13\obj\Debug\Encrypt.g.cs
+e:\kripta\lab13\KMZI13\KMZI13\obj\Debug\MainWindow.g.cs
+e:\kripta\lab13\KMZI13\KMZI13\obj\Debug\App.g.cs
+e:\kripta\lab13\KMZI13\KMZI13\obj\Debug\KMZI13_MarkupCompile.cache
+e:\kripta\lab13\KMZI13\KMZI13\obj\Debug\KMZI13_MarkupCompile.lref
+e:\kripta\lab13\KMZI13\KMZI13\obj\Debug\ECP.baml
+e:\kripta\lab13\KMZI13\KMZI13\obj\Debug\Encrypt.baml
+e:\kripta\lab13\KMZI13\KMZI13\obj\Debug\MainWindow.baml
+e:\kripta\lab13\KMZI13\KMZI13\obj\Debug\KMZI13.g.resources
+e:\kripta\lab13\KMZI13\KMZI13\obj\Debug\KMZI13.Properties.Resources.resources
+e:\kripta\lab13\KMZI13\KMZI13\obj\Debug\KMZI13.csproj.GenerateResource.cache
+e:\kripta\lab13\KMZI13\KMZI13\obj\Debug\KMZI13.csproj.CoreCompileInputs.cache
+e:\kripta\lab13\KMZI13\KMZI13\obj\Debug\KMZI13.csproj.CopyComplete
+e:\kripta\lab13\KMZI13\KMZI13\obj\Debug\KMZI13.exe
+e:\kripta\lab13\KMZI13\KMZI13\obj\Debug\KMZI13.pdb
+E:\Study\3_course\2_Semester\Cryptography\Labs\Crypto\lab13(Эллиптические_кривые)\KMZI13\KMZI13\bin\Debug\KMZI13.exe.config
+E:\Study\3_course\2_Semester\Cryptography\Labs\Crypto\lab13(Эллиптические_кривые)\KMZI13\KMZI13\bin\Debug\KMZI13.exe
+E:\Study\3_course\2_Semester\Cryptography\Labs\Crypto\lab13(Эллиптические_кривые)\KMZI13\KMZI13\bin\Debug\KMZI13.pdb
+E:\Study\3_course\2_Semester\Cryptography\Labs\Crypto\lab13(Эллиптические_кривые)\KMZI13\KMZI13\bin\Debug\System.ValueTuple.dll
+E:\Study\3_course\2_Semester\Cryptography\Labs\Crypto\lab13(Эллиптические_кривые)\KMZI13\KMZI13\bin\Debug\System.ValueTuple.xml
+E:\Study\3_course\2_Semester\Cryptography\Labs\Crypto\lab13(Эллиптические_кривые)\KMZI13\KMZI13\obj\Debug\KMZI13.csprojAssemblyReference.cache
+E:\Study\3_course\2_Semester\Cryptography\Labs\Crypto\lab13(Эллиптические_кривые)\KMZI13\KMZI13\obj\Debug\ECP.g.cs
+E:\Study\3_course\2_Semester\Cryptography\Labs\Crypto\lab13(Эллиптические_кривые)\KMZI13\KMZI13\obj\Debug\Encrypt.g.cs
+E:\Study\3_course\2_Semester\Cryptography\Labs\Crypto\lab13(Эллиптические_кривые)\KMZI13\KMZI13\obj\Debug\MainWindow.g.cs
+E:\Study\3_course\2_Semester\Cryptography\Labs\Crypto\lab13(Эллиптические_кривые)\KMZI13\KMZI13\obj\Debug\App.g.cs
+E:\Study\3_course\2_Semester\Cryptography\Labs\Crypto\lab13(Эллиптические_кривые)\KMZI13\KMZI13\obj\Debug\KMZI13_MarkupCompile.cache
+E:\Study\3_course\2_Semester\Cryptography\Labs\Crypto\lab13(Эллиптические_кривые)\KMZI13\KMZI13\obj\Debug\KMZI13_MarkupCompile.lref
+E:\Study\3_course\2_Semester\Cryptography\Labs\Crypto\lab13(Эллиптические_кривые)\KMZI13\KMZI13\obj\Debug\ECP.baml
+E:\Study\3_course\2_Semester\Cryptography\Labs\Crypto\lab13(Эллиптические_кривые)\KMZI13\KMZI13\obj\Debug\Encrypt.baml
+E:\Study\3_course\2_Semester\Cryptography\Labs\Crypto\lab13(Эллиптические_кривые)\KMZI13\KMZI13\obj\Debug\MainWindow.baml
+E:\Study\3_course\2_Semester\Cryptography\Labs\Crypto\lab13(Эллиптические_кривые)\KMZI13\KMZI13\obj\Debug\KMZI13.g.resources
+E:\Study\3_course\2_Semester\Cryptography\Labs\Crypto\lab13(Эллиптические_кривые)\KMZI13\KMZI13\obj\Debug\KMZI13.Properties.Resources.resources
+E:\Study\3_course\2_Semester\Cryptography\Labs\Crypto\lab13(Эллиптические_кривые)\KMZI13\KMZI13\obj\Debug\KMZI13.csproj.GenerateResource.cache
+E:\Study\3_course\2_Semester\Cryptography\Labs\Crypto\lab13(Эллиптические_кривые)\KMZI13\KMZI13\obj\Debug\KMZI13.csproj.CoreCompileInputs.cache
+E:\Study\3_course\2_Semester\Cryptography\Labs\Crypto\lab13(Эллиптические_кривые)\KMZI13\KMZI13\obj\Debug\KMZI13.csproj.CopyComplete
+E:\Study\3_course\2_Semester\Cryptography\Labs\Crypto\lab13(Эллиптические_кривые)\KMZI13\KMZI13\obj\Debug\KMZI13.exe
+E:\Study\3_course\2_Semester\Cryptography\Labs\Crypto\lab13(Эллиптические_кривые)\KMZI13\KMZI13\obj\Debug\KMZI13.pdb
+D:\Учеба\3 курс\6 сем\Крипта\lab13(Эллиптические_кривые)\KMZI13\KMZI13\bin\Debug\KMZI13.exe.config
+D:\Учеба\3 курс\6 сем\Крипта\lab13(Эллиптические_кривые)\KMZI13\KMZI13\bin\Debug\KMZI13.exe
+D:\Учеба\3 курс\6 сем\Крипта\lab13(Эллиптические_кривые)\KMZI13\KMZI13\bin\Debug\KMZI13.pdb
+D:\Учеба\3 курс\6 сем\Крипта\lab13(Эллиптические_кривые)\KMZI13\KMZI13\bin\Debug\System.ValueTuple.dll
+D:\Учеба\3 курс\6 сем\Крипта\lab13(Эллиптические_кривые)\KMZI13\KMZI13\bin\Debug\System.ValueTuple.xml
+D:\Учеба\3 курс\6 сем\Крипта\lab13(Эллиптические_кривые)\KMZI13\KMZI13\obj\Debug\KMZI13.csproj.AssemblyReference.cache
+D:\Учеба\3 курс\6 сем\Крипта\lab13(Эллиптические_кривые)\KMZI13\KMZI13\obj\Debug\ECP.g.cs
+D:\Учеба\3 курс\6 сем\Крипта\lab13(Эллиптические_кривые)\KMZI13\KMZI13\obj\Debug\Encrypt.g.cs
+D:\Учеба\3 курс\6 сем\Крипта\lab13(Эллиптические_кривые)\KMZI13\KMZI13\obj\Debug\MainWindow.g.cs
+D:\Учеба\3 курс\6 сем\Крипта\lab13(Эллиптические_кривые)\KMZI13\KMZI13\obj\Debug\App.g.cs
+D:\Учеба\3 курс\6 сем\Крипта\lab13(Эллиптические_кривые)\KMZI13\KMZI13\obj\Debug\KMZI13_MarkupCompile.cache
+D:\Учеба\3 курс\6 сем\Крипта\lab13(Эллиптические_кривые)\KMZI13\KMZI13\obj\Debug\KMZI13_MarkupCompile.lref
+D:\Учеба\3 курс\6 сем\Крипта\lab13(Эллиптические_кривые)\KMZI13\KMZI13\obj\Debug\ECP.baml
+D:\Учеба\3 курс\6 сем\Крипта\lab13(Эллиптические_кривые)\KMZI13\KMZI13\obj\Debug\Encrypt.baml
+D:\Учеба\3 курс\6 сем\Крипта\lab13(Эллиптические_кривые)\KMZI13\KMZI13\obj\Debug\MainWindow.baml
+D:\Учеба\3 курс\6 сем\Крипта\lab13(Эллиптические_кривые)\KMZI13\KMZI13\obj\Debug\KMZI13.g.resources
+D:\Учеба\3 курс\6 сем\Крипта\lab13(Эллиптические_кривые)\KMZI13\KMZI13\obj\Debug\KMZI13.Properties.Resources.resources
+D:\Учеба\3 курс\6 сем\Крипта\lab13(Эллиптические_кривые)\KMZI13\KMZI13\obj\Debug\KMZI13.csproj.GenerateResource.cache
+D:\Учеба\3 курс\6 сем\Крипта\lab13(Эллиптические_кривые)\KMZI13\KMZI13\obj\Debug\KMZI13.csproj.CoreCompileInputs.cache
+D:\Учеба\3 курс\6 сем\Крипта\lab13(Эллиптические_кривые)\KMZI13\KMZI13\obj\Debug\KMZI13.csproj.CopyComplete
+D:\Учеба\3 курс\6 сем\Крипта\lab13(Эллиптические_кривые)\KMZI13\KMZI13\obj\Debug\KMZI13.exe
+D:\Учеба\3 курс\6 сем\Крипта\lab13(Эллиптические_кривые)\KMZI13\KMZI13\obj\Debug\KMZI13.pdb
