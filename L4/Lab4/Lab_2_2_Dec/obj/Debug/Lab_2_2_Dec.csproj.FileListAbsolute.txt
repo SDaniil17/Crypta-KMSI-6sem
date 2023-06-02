@@ -1,0 +1,64 @@
+D:\Crypto\Lab_2\Lab_2_2_Dec\bin\Debug\Lab_2_2_Dec.exe.config
+D:\Crypto\Lab_2\Lab_2_2_Dec\bin\Debug\Lab_2_2_Dec.exe
+D:\Crypto\Lab_2\Lab_2_2_Dec\bin\Debug\Lab_2_2_Dec.pdb
+D:\Crypto\Lab_2\Lab_2_2_Dec\obj\Debug\MainWindow.g.cs
+D:\Crypto\Lab_2\Lab_2_2_Dec\obj\Debug\App.g.cs
+D:\Crypto\Lab_2\Lab_2_2_Dec\obj\Debug\Lab_2_2_Dec_MarkupCompile.cache
+D:\Crypto\Lab_2\Lab_2_2_Dec\obj\Debug\Lab_2_2_Dec_MarkupCompile.lref
+D:\Crypto\Lab_2\Lab_2_2_Dec\obj\Debug\MainWindow.baml
+D:\Crypto\Lab_2\Lab_2_2_Dec\obj\Debug\Lab_2_2_Dec.g.resources
+D:\Crypto\Lab_2\Lab_2_2_Dec\obj\Debug\Lab_2_2_Dec.Properties.Resources.resources
+D:\Crypto\Lab_2\Lab_2_2_Dec\obj\Debug\Lab_2_2_Dec.csproj.GenerateResource.cache
+D:\Crypto\Lab_2\Lab_2_2_Dec\obj\Debug\Lab_2_2_Dec.csproj.CoreCompileInputs.cache
+D:\Crypto\Lab_2\Lab_2_2_Dec\obj\Debug\Lab_2_2_Dec.exe
+D:\Crypto\Lab_2\Lab_2_2_Dec\obj\Debug\Lab_2_2_Dec.pdb
+D:\Crypto\Part 2\Lab_2\Lab_2_2_Dec\bin\Debug\Lab_2_2_Dec.exe.config
+D:\Crypto\Part 2\Lab_2\Lab_2_2_Dec\bin\Debug\Lab_2_2_Dec.exe
+D:\Crypto\Part 2\Lab_2\Lab_2_2_Dec\bin\Debug\Lab_2_2_Dec.pdb
+D:\Crypto\Part 2\Lab_2\Lab_2_2_Dec\obj\Debug\Lab_2_2_Dec.csprojAssemblyReference.cache
+D:\Crypto\Part 2\Lab_2\Lab_2_2_Dec\obj\Debug\MainWindow.g.cs
+D:\Crypto\Part 2\Lab_2\Lab_2_2_Dec\obj\Debug\App.g.cs
+D:\Crypto\Part 2\Lab_2\Lab_2_2_Dec\obj\Debug\Lab_2_2_Dec_MarkupCompile.cache
+D:\Crypto\Part 2\Lab_2\Lab_2_2_Dec\obj\Debug\Lab_2_2_Dec_MarkupCompile.lref
+D:\Crypto\Part 2\Lab_2\Lab_2_2_Dec\obj\Debug\MainWindow.baml
+D:\Crypto\Part 2\Lab_2\Lab_2_2_Dec\obj\Debug\Lab_2_2_Dec.g.resources
+D:\Crypto\Part 2\Lab_2\Lab_2_2_Dec\obj\Debug\Lab_2_2_Dec.Properties.Resources.resources
+D:\Crypto\Part 2\Lab_2\Lab_2_2_Dec\obj\Debug\Lab_2_2_Dec.csproj.GenerateResource.cache
+D:\Crypto\Part 2\Lab_2\Lab_2_2_Dec\obj\Debug\Lab_2_2_Dec.csproj.CoreCompileInputs.cache
+D:\Crypto\Part 2\Lab_2\Lab_2_2_Dec\obj\Debug\Lab_2_2_Dec.exe
+D:\Crypto\Part 2\Lab_2\Lab_2_2_Dec\obj\Debug\Lab_2_2_Dec.pdb
+D:\Crypto\Part 2\Lab_2\Lab_2_2_Dec\obj\Debug\Histogram.g.cs
+D:\Crypto\Part 2\Lab_2\Lab_2_2_Dec\obj\Debug\Histogram.baml
+D:\Универ\КМЗИ\Lab4\Lab_2_2_Dec\bin\Debug\Lab_2_2_Dec.exe.config
+D:\Универ\КМЗИ\Lab4\Lab_2_2_Dec\bin\Debug\Lab_2_2_Dec.exe
+D:\Универ\КМЗИ\Lab4\Lab_2_2_Dec\bin\Debug\Lab_2_2_Dec.pdb
+D:\Универ\КМЗИ\Lab4\Lab_2_2_Dec\obj\Debug\Lab_2_2_Dec.csprojAssemblyReference.cache
+D:\Универ\КМЗИ\Lab4\Lab_2_2_Dec\obj\Debug\Histogram.g.cs
+D:\Универ\КМЗИ\Lab4\Lab_2_2_Dec\obj\Debug\MainWindow.g.cs
+D:\Универ\КМЗИ\Lab4\Lab_2_2_Dec\obj\Debug\App.g.cs
+D:\Универ\КМЗИ\Lab4\Lab_2_2_Dec\obj\Debug\Lab_2_2_Dec_MarkupCompile.cache
+D:\Универ\КМЗИ\Lab4\Lab_2_2_Dec\obj\Debug\Lab_2_2_Dec_MarkupCompile.lref
+D:\Универ\КМЗИ\Lab4\Lab_2_2_Dec\obj\Debug\Histogram.baml
+D:\Универ\КМЗИ\Lab4\Lab_2_2_Dec\obj\Debug\MainWindow.baml
+D:\Универ\КМЗИ\Lab4\Lab_2_2_Dec\obj\Debug\Lab_2_2_Dec.g.resources
+D:\Универ\КМЗИ\Lab4\Lab_2_2_Dec\obj\Debug\Lab_2_2_Dec.Properties.Resources.resources
+D:\Универ\КМЗИ\Lab4\Lab_2_2_Dec\obj\Debug\Lab_2_2_Dec.csproj.GenerateResource.cache
+D:\Универ\КМЗИ\Lab4\Lab_2_2_Dec\obj\Debug\Lab_2_2_Dec.exe
+D:\Универ\КМЗИ\Lab4\Lab_2_2_Dec\obj\Debug\Lab_2_2_Dec.pdb
+d:\Lab4\Lab_2_2_Dec\bin\Debug\Lab_2_2_Dec.exe.config
+d:\Lab4\Lab_2_2_Dec\bin\Debug\Lab_2_2_Dec.exe
+d:\Lab4\Lab_2_2_Dec\bin\Debug\Lab_2_2_Dec.pdb
+d:\Lab4\Lab_2_2_Dec\obj\Debug\Lab_2_2_Dec.csprojAssemblyReference.cache
+d:\Lab4\Lab_2_2_Dec\obj\Debug\Histogram.g.cs
+d:\Lab4\Lab_2_2_Dec\obj\Debug\MainWindow.g.cs
+d:\Lab4\Lab_2_2_Dec\obj\Debug\App.g.cs
+d:\Lab4\Lab_2_2_Dec\obj\Debug\Lab_2_2_Dec_MarkupCompile.cache
+d:\Lab4\Lab_2_2_Dec\obj\Debug\Lab_2_2_Dec_MarkupCompile.lref
+d:\Lab4\Lab_2_2_Dec\obj\Debug\Histogram.baml
+d:\Lab4\Lab_2_2_Dec\obj\Debug\MainWindow.baml
+d:\Lab4\Lab_2_2_Dec\obj\Debug\Lab_2_2_Dec.g.resources
+d:\Lab4\Lab_2_2_Dec\obj\Debug\Lab_2_2_Dec.Properties.Resources.resources
+d:\Lab4\Lab_2_2_Dec\obj\Debug\Lab_2_2_Dec.csproj.GenerateResource.cache
+d:\Lab4\Lab_2_2_Dec\obj\Debug\Lab_2_2_Dec.csproj.CoreCompileInputs.cache
+d:\Lab4\Lab_2_2_Dec\obj\Debug\Lab_2_2_Dec.exe
+d:\Lab4\Lab_2_2_Dec\obj\Debug\Lab_2_2_Dec.pdb

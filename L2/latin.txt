@@ -1,0 +1,196 @@
+Sequelize
+Sequelize is a promise-based Node.js ORM for Postgres, MySQL, MariaDB, SQLite and Microsoft SQL
+Server. It features solid transaction support, relations, eager and lazy loading, read replication and more.
+Model Basics
+In this tutorial you will learn what models are in Sequelize and how to use them.
+
+Concept
+Models are the essence of Sequelize. A model is an abstraction that represents a table in your database.
+In Sequelize, it is a class that extends Model.
+
+The model tells Sequelize several things about the entity it represents, such as the name of the table
+in the database and which columns it has (and their data types).
+
+A model in Sequelize has a name. This name does not have to be the same name of the table it represents
+in the database. Usually, models have singular names (such as User) while tables have pluralized names
+(such as Users), although this is fully configurable.
+
+Model Definition
+Models can be defined in two equivalent ways in Sequelize:
+
+Calling sequelize.define(modelName, attributes, options)
+Extending Model and calling init(attributes, options)
+After a model is defined, it is available within sequelize.models by its model name.
+
+To learn with an example, we will consider that we want to create a model to represent users, which have a firstName and a lastName. We want our model to be called User, and the table it represents is called Users in the database.
+
+Both ways to define this model are shown below. After being defined, we can access our model with sequelize.models.User.
+
+Table name inference
+Observe that, in both methods above, the table name (Users) was never explicitly defined. However, the model name was given (User).
+
+By default, when the table name is not given, Sequelize automatically pluralizes the model name and uses that as the table name. This pluralization is done under the hood by a library called inflection, so that irregular plurals (such as person -> people) are computed correctly.
+
+Of course, this behavior is easily configurable.
+
+Enforcing the table name to be equal to the model name
+You can stop the auto-pluralization performed by Sequelize using the freezeTableName: true option. This way, Sequelize will infer the table name to be equal to the model name, without any modifications
+
+Model synchronization
+When you define a model, you're telling Sequelize a few things about its table in the database. However, what if the table actually doesn't even exist in the database? What if it exists, but it has different columns, less columns, or any other difference?
+
+This is where model synchronization comes in. A model can be synchronized with the database by calling model.sync(options), an asynchronous function (that returns a Promise). With this call, Sequelize will automatically perform an SQL query to the database. Note that this changes only the table in the database, not the model in the JavaScript side.
+
+User.sync() - This creates the table if it doesn't exist (and does nothing if it already exists)
+User.sync({ force: true }) - This creates the table, dropping it first if it already existed
+User.sync({ alter: true }) - This checks what is the current state of the table in the database (which columns it has, what are their data types, etc), and then performs the necessary changes in the table to make it match the model.
+
+Synchronization in production
+As shown above, sync({ force: true }) and sync({ alter: true }) can be destructive operations. Therefore, they are not recommended for production-level software. Instead, synchronization should be done with the advanced concept of Migrations, with the help of the Sequelize CLI.
+
+Timestamps
+By default, Sequelize automatically adds the fields createdAt and updatedAt to every model, using the data type DataTypes.DATE. Those fields are automatically managed as well - whenever you use Sequelize to create or update something, those fields will be set correctly. The createdAt field will contain the timestamp representing the moment of creation, and the updatedAt will contain the timestamp of the latest update.
+
+Note: This is done in the Sequelize level (i.e. not done with SQL triggers). This means that direct SQL queries (for example queries performed without Sequelize by any other means) will not cause these fields to be updated automatically.
+
+Model Instances
+As you already know, a model is an ES6 class. An instance of the class represents one object from that model (which maps to one row of the table in the database). This way, model instances are DAOs.
+
+Creating an instance
+Although a model is a class, you should not create instances by using the new operator directly. 
+
+However, the code above does not communicate with the database at all (note that it is not even asynchronous)! This is because the build method only creates an object that represents data that can be mapped to a database. In order to really save (i.e. persist) this instance in the database, the save method should be used
+
+Note, from the usage of await in the snippet above, that save is an asynchronous method. In fact, almost every Sequelize method is asynchronous; build is one of the very few exceptions.
+
+A very useful shortcut: the create method
+Sequelize provides the create method, which combines the build and save methods shown above into a single method
+
+Note: logging instances
+Trying to log a model instance directly to console.log will produce a lot of clutter, since Sequelize instances have a lot of things attached to them. Instead, you can use the .toJSON() method (which, by the way, automatically guarantees the instances to be JSON.stringify-ed well).
+
+Saving only some fields
+It is possible to define which attributes should be saved when calling save, by passing an array of column names.
+
+This is useful when you set attributes based on a previously defined object, for example, when you get the values of an object via a form of a web app. Furthermore, this is used internally in the update implementation.
+
+Change-awareness of save
+The save method is optimized internally to only update fields that really changed. This means that if you don't change anything and call save, Sequelize will know that the save is superfluous and do nothing, i.e., no query will be generated (it will still return a Promise, but it will resolve immediately).
+
+Also, if only a few attributes have changed when you call save, only those fields will be sent in the UPDATE query, to improve performance.
+
+Incrementing and decrementing integer values
+In order to increment/decrement values of an instance without running into concurrency issues, Sequelize provides the increment and decrement instance methods.
+
+Model Querying - Basics
+Sequelize provides various methods to assist querying your database for data.
+
+Important notice: to perform production-ready queries with Sequelize, make sure you have read the Transactions guide as well. Transactions are important to ensure data integrity and to provide other benefits.
+
+This guide will show how to make the standard CRUD queries.
+
+Simple INSERT queries
+The Model.create() method is a shorthand for building an unsaved instance with Model.build() and saving the instance with instance.save().
+
+It is also possible to define which attributes can be set in the create method. This can be especially useful if you create database entries based on a form which can be filled by a user. Using that would, for example, allow you to restrict the User model to set only an username and an address but not an admin flag
+
+When using aggregation function, you must give it an alias to be able to access it from the model. In the example above you can get the number of hats with instance.n_hats.
+
+Sometimes it may be tiresome to list all the attributes of the model if you only want to add an aggregation
+Hooks
+Hooks (also known as lifecycle events), are functions which are called before and after calls in sequelize are executed. For example, if you want to always set a value on a model before saving it, you can add a beforeUpdate hook.
+
+Note: You can't use hooks with instances. Hooks are used with models.
+
+Available hooks
+Sequelize provides a lot of hooks. The full list can be found in directly in the source code - lib/hooks.js.
+
+Hooks firing order
+The diagram below shows the firing order for the most common hooks.
+
+Note: this list is not exhaustive.
+
+Declaring Hooks
+Arguments to hooks are passed by reference. This means, that you can change the values, and this will be reflected in the insert / update statement. A hook may contain async actions - in this case the hook function should return a promise.
+
+Removing hooks
+Only a hook with name param can be removed.
+
+Global / universal hooks
+Global hooks are hooks which are run for all models. They can define behaviours that you want for all your models, and are especially useful for plugins. They can be defined in two ways, which have slightly different semantics
+
+Connection Hooks
+Sequelize provides four hooks that are executed immediately before and after a database connection is obtained or released:
+
+sequelize.beforeConnect(callback)
+The callback has the form async (config) => /* ... */
+sequelize.afterConnect(callback)
+The callback has the form async (connection, config) => /* ... */
+sequelize.beforeDisconnect(callback)
+The callback has the form async (connection) => /* ... */
+sequelize.afterDisconnect(callback)
+The callback has the form async (connection) => /* ... */
+These hooks can be useful if you need to asynchronously obtain database credentials, or need to directly access the low-level database connection after it has been created.
+
+For example, we can asynchronously obtain a database password from a rotating token store, and mutate Sequelize's configuration object with the new credentials:
+
+These hooks may only be declared as a permanent global hook, as the connection pool is shared by all models.
+
+Instance hooks
+The following hooks will emit whenever you're editing a single object:
+
+beforeValidate
+afterValidate / validationFailed
+beforeCreate / beforeUpdate / beforeSave / beforeDestroy
+afterCreate / afterUpdate / afterSave / afterDestroy
+
+Model hooks
+Sometimes you'll be editing more than one record at a time by using methods like bulkCreate, update and destroy. The following hooks will emit whenever you're using one of those methods:
+
+YourModel.beforeBulkCreate(callback)
+The callback has the form (instances, options) => /* ... */
+YourModel.beforeBulkUpdate(callback)
+The callback has the form (options) => /* ... */
+YourModel.beforeBulkDestroy(callback)
+The callback has the form (options) => /* ... */
+YourModel.afterBulkCreate(callback)
+The callback has the form (instances, options) => /* ... */
+YourModel.afterBulkUpdate(callback)
+The callback has the form (options) => /* ... */
+YourModel.afterBulkDestroy(callback)
+The callback has the form (options) => /* ... */
+Note: methods like bulkCreate do not emit individual hooks by default - only the bulk hooks. However, if you want individual hooks to be emitted as well, you can pass the { individualHooks: true } option to the query call. However, this can drastically impact performance, depending on the number of records involved (since, among other things, all instances will be loaded into memory). Examples
+
+If you use Model.bulkCreate(...) with the updateOnDuplicate option, changes made in the hook to fields that aren't given in the updateOnDuplicate array will not be persisted to the database. However it is possible to change the updateOnDuplicate option inside the hook if this is what you want.
+
+Associations
+For the most part hooks will work the same for instances when being associated.
+
+One-to-One and One-to-Many associations
+When using add/set mixin methods the beforeUpdate and afterUpdate hooks will run.
+
+The beforeDestroy and afterDestroy hooks will only be called on associations that have onDelete: 'CASCADE' and hooks: true. 
+
+However, adding hooks: true explicitly tells Sequelize that optimization is not of your concern. Then, Sequelize will first perform a SELECT on the associated objects and destroy each instance, one by one, in order to be able to properly call the hooks (with the right parameters).
+
+Many-to-Many associations
+When using add mixin methods for belongsToMany relationships (that will add one or more records to the junction table) the beforeBulkCreate and afterBulkCreate hooks in the junction model will run.
+
+If { individualHooks: true } was passed to the call, then each individual hook will also run.
+When using remove mixin methods for belongsToMany relationships (that will remove one or more records to the junction table) the beforeBulkDestroy and afterBulkDestroy hooks in the junction model will run.
+
+If { individualHooks: true } was passed to the call, then each individual hook will also run.
+If your association is Many-to-Many, you may be interested in firing hooks on the through model when using the remove call. Internally, sequelize is using Model.destroy resulting in calling the bulkDestroy instead of the before/afterDestroy hooks on each through instance.
+
+Hooks and Transactions
+Many model operations in Sequelize allow you to specify a transaction in the options parameter of the method. If a transaction is specified in the original call, it will be present in the options parameter passed to the hook function. For example, consider the following snippet
+
+If we had not included the transaction option in our call to User.update in the preceding code, no change would have occurred, since our newly created user does not exist in the database until the pending transaction has been committed.
+
+Internal Transactions
+It is very important to recognize that sequelize may make use of transactions internally for certain operations such as Model.findOrCreate. If your hook functions execute read or write operations that rely on the object's presence in the database, or modify the object's stored values like the example in the preceding section, you should always specify { transaction: options.transaction }:
+
+If a transaction was used, then { transaction: options.transaction } will ensure it is used again;
+Otherwise, { transaction: options.transaction } will be equivalent to { transaction: undefined }, which won't use a transaction (which is ok).
+This way your hooks will always behave correctly.
+
